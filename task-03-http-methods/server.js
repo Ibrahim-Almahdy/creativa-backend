@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end(
       JSON.stringify([
         { id: 1, name: "Eng Ahmed Elbayaa" },
-        { id: 2, name: "Eng Ibrahim Almahdys" },
+        { id: 2, name: "Eng Ibrahim Almahdy" },
       ]),
     );
   } else if (req.method === "GET" && req.url === "/about") {
